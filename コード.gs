@@ -56,7 +56,7 @@
 
   function postMessage(value){
 
-    var postUrl = "https://hooks.slack.com/services/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";
+    var postUrl = "https://hooks.slack.com/services/****";
     var username = '入退管理Bot';
     var icon = ':slightly_smiling_face:';
     var jsondata = 
@@ -68,7 +68,7 @@
               'fallback': '入退管理通知',
               'color': '#36a64f',
               'title': Session.getActiveUser().getEmail() + 'さんが更新しました。',
-              'title_link': 'https://docs.google.com/spreadsheets/d/1ZJMsuWZHg6yFoxoFVSpsYtPWVgx2TsJ5Vbd8k3ohPvA/edit#gid=1472463372',
+              'title_link': 'https://docs.google.com/spreadsheets/d/***',
               'text': '<!here>\n' + value //+ '\n' + Session.getActiveUser().getEmail(),
             }
           ]
